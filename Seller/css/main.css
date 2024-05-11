@@ -1,0 +1,147 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+.log{
+    margin: 0 auto;
+    display: block;
+    width: 145px;
+    padding-top: 60px;
+    padding-bottom: 79px;
+}
+section{
+    padding-top: 120px;
+}
+p {
+    line-height: 1.19em;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.39em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    line-height: 1.4em;
+    text-align: center;
+}
+.image {
+    width: 465px;
+}
+
+.intro {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.button {
+    background: #000000;
+    border-radius: 100px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 22px 0;
+    font-weight: 700;
+    line-height: 1.19em;
+    display: block;
+    width: 216px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.button:hover{
+    background: rgb(78, 78, 78);
+}
+.feature:hover .digit{
+    background: #000;
+    color: #fff;
+}
+.offer {
+    width: 465px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.digit{
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 77px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+.ft{
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+.fp{
+
+}
+.feature{
+    gap: 34px;
+    display: flex;
+    align-items: center;
+}
+.features2{
+
+}
+.wrap2{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.actwrap{
+    background: linear-gradient(102deg, #E8FFE8 17.38%, #D1F0FF 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 93px 168px 89px 122px;
+}
+.buy{
+    width: 432px;
+    margin-left: 101px;
+}
+.buy h2{
+    width: 432px;
+    text-align: left;
+}
+.buy p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.credits{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+.footer{
+    padding: 120px 0;
+}
