@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    background: #FDFCEF;
+    margin: 60px auto 120px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+h3{
+    font-size: 30px;
+    line-height: 140%;
+    margin: 0%;
+}
+h1{
+    line-height: 140%;
+    font-size: 50px;
+    width: 465px;
+    margin: 0;
+}
+h2{
+    width: 512px;
+    font-size: 40px;
+    display: flex;
+    margin: 0 auto;
+    line-height: 140%;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    line-height: 25px;
+}
+.button{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 22px 70px;
+    background: #FF6861;
+    border-radius: 100px;
+    text-decoration: none;
+    display: block;
+    width: 221px;
+    line-height: 136.7%;
+}
+.wrapper{
+    display: flex;  
+    align-items: center;
+}
+image{
+    width: 465px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header{
+    margin: 0 auto;
+    width: 1110px;
+}
+.featurepart{
+
+}
+.feature{
+    display: flex;
+    align-items: center;
+    width: 613px;
+    gap: 34px;
+}
+.features{
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 34px;
+}
+.LetsPlay{
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    padding: 75px 125px;
+}
+.LetsPlay h2{
+    margin: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 475px;
+}
+footer{
+    display: block;
+    margin: auto;
+}
